@@ -1,0 +1,19 @@
+{
+  "platform": {
+    "apiRuntime": "node"
+  },
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "globalHeaders": {
+    "cache-control": "public, max-age=0, must-revalidate"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}
